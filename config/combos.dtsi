@@ -38,7 +38,7 @@ ZMK_COMBO(paste, &kp LG(V),     LB2 LB1,     DEF NAV NUM, COMBO_TERM_FAST)
 
 // Right hand vertical combos
 // Between top and home row
-ZMK_COMBO(caDEF, &kp CADEF,     RT0 RM0,     DEF NAV NUM, COMBO_TERM_SLOW)
+ZMK_COMBO(caret, &kp CARET,     RT0 RM0,     DEF NAV NUM, COMBO_TERM_SLOW)
 ZMK_COMBO(plus,  &kp PLUS,      RT1 RM1,     DEF NAV NUM, COMBO_TERM_SLOW)
 ZMK_COMBO(star,  &kp STAR,      RT2 RM2,     DEF NAV NUM, COMBO_TERM_SLOW)
 ZMK_COMBO(amps,  &kp AMPS,      RT3 RM3,     DEF NAV NUM, COMBO_TERM_SLOW)
