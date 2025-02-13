@@ -5,7 +5,7 @@
         &kp TAB    LT RT &kp BACKSPACE                                         \
         &kp LALT   LM RM &kp SQT                                               \
         &kp LSHIFT LB RB &kp RSHIFT                                            \
-        &kp LGUI   LH RH &LCTRL                                                \
+        &kp LGUI   LH RH &kp LCTRL                                             \
     )
 
 #include "zmk-helpers/key-labels/42.h"
