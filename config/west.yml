@@ -1,7 +1,7 @@
 manifest:
   defaults:
     remote: urob
-    revision: v0.1 # Pin everything to v0.1
+    revision: main
   remotes:
     - name: urob
       url-base: https://github.com/urob
@@ -25,7 +25,6 @@ manifest:
     - name: zmk-helpers
       path: modules/zmk/helpers
     - name: zmk-leader-key
-      revision: v0.1+locality
       path: modules/zmk/leader-key
     - name: zmk-tri-state
       path: modules/zmk/tri-state
