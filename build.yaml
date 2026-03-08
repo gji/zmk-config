@@ -19,10 +19,10 @@
 #
 ---
 include:
-  - board: nice_nano
+  - board: nice_nano@1//zmk
     shield: corne_left nice_view_adapter nice_view
     # snippet: studio-rpc-usb-uart
-  - board: nice_nano
+  - board: nice_nano@1//zmk
     shield: corne_right nice_view_adapter nice_view
   - board: xiao_ble//zmk
     shield: totem_left rgbled_adapter
