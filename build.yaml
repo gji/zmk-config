@@ -32,3 +32,6 @@ include:
     shield: atlas_left rgbled_adapter
   - board: xiao_ble//zmk
     shield: atlas_right rgbled_adapter
+  - board: xiao_ble//zmk
+    shield: settings_reset
+    artifact-name: xiao_ble_settings_reset
