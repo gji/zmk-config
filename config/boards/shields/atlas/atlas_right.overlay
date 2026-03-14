@@ -19,11 +19,11 @@
         , <&xiao_d 6 GPIO_ACTIVE_HIGH>   /* R4 */
         ;
     col-gpios
-        = <&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   /* C0 */
-        , <&xiao_d 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   /* C1 */
-        , <&xiao_d 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* C2 */
-        , <&xiao_d 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   /* C3 */
-        , <&xiao_d 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   /* C4 */
-        , <&xiao_d 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   /* C5 */
+        = <&xiao_d 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   /* C5 → col 6 (inner) */
+        , <&xiao_d 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   /* C4 → col 7 */
+        , <&xiao_d 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   /* C3 → col 8 */
+        , <&xiao_d 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* C2 → col 9 */
+        , <&xiao_d 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   /* C1 → col 10 */
+        , <&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   /* C0 → col 11 (outer) */
         ;
 };
