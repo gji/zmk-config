@@ -22,7 +22,7 @@
 // │ LSFT │  Z │  X │  C │  V │  B │   │  N │  M │  , │  . │  / │  -   │
 // └──────┴────┴────┴────┴────┴────┘   └────┴────┴────┴────┴────┴──────┘
 //         ┌──────┬──────┬──────┬──────┬──────┐ ┌──────┬──────┬──────┬──────┬──────┐
-//         │ LALT │ LGUI │ LSFT │ SPC  │  [   │ │  ]   │ RET  │ RCTL │ RALT │ RSFT │
+//         │ LSFT │ LALT │ LGUI │ SPC  │  [   │ │  ]   │ RET  │ RCTL │ RALT │ RSFT │
 //         └──────┴──────┴──────┴──────┴──────┘ └──────┴──────┴──────┴──────┴──────┘
 //                                           ^ hold for NAV        ^ hold for SYS
 
@@ -43,7 +43,7 @@
    &kp LSFT &kp Z  &kp X  &kp C  &kp V  &kp B    &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &kp MINUS
 // └──────┴────┴────┴────┴────┴────┘   └────┴────┴────┴────┴────┴──────┘
 //         ┌──────┬──────┬──────┬──────┬──────┐ ┌──────┬──────┬──────┬──────┬──────┐
-            &kp LALT &kp LGUI &kp LSFT &kp SPACE &lt NAV LBKT   &lt SYS RBKT &kp RET &kp RCTRL &kp RALT &kp RSFT
+            &kp LSFT &kp LALT &kp LGUI &kp SPACE &lt NAV LBKT   &lt SYS RBKT &kp RET &kp RCTRL &kp RALT &kp RSFT
 //         └──────┴──────┴──────┴──────┴──────┘ └──────┴──────┴──────┴──────┴──────┘
             >;
         };
