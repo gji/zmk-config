@@ -19,9 +19,9 @@
 // │ LSFT │  Z │  X │  C │  V │  B │   │  N │  M │  , │  . │  / │ -/SYS│
 // └──────┴────┴────┴────┴────┴────┘   └────┴────┴────┴────┴────┴──────┘
 //        ┌──────┬──────┬──────┬──────┬──────┐ ┌──────┬──────┬──────┬──────┬──────┐
-//        │  [   │ LALT │ LGUI │ SPC  │ NAV  │ │ NAV  │ BSPC │ RCTL │ RALT │  ]   │
+//        │  [   │ LALT │ LGUI │ SPC  │ NAV/↵│ │ BSPC │NAV/SP│ RCTL │ RALT │  ]   │
 //        └──────┴──────┴──────┴──────┴──────┘ └──────┴──────┴──────┴──────┴──────┘
-//                                                 └── tap: ↵   hold: NAV
+//                                        hold for NAV ┘       └ hold for NAV
 
 / {
     keymap {
@@ -40,7 +40,7 @@
    &kp LSFT  &kp Z     &kp X     &kp C     &kp V     &kp B       &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &lt SYS MINUS
 // └──────┴────┴────┴────┴────┴────┘   └────┴────┴────┴────┴────┴──────┘
 //        ┌──────┬──────┬──────┬──────┬──────┐ ┌──────┬──────┬──────┬──────┬──────┐
-   &kp LBKT  &kp LALT  &kp LGUI  &kp SPACE &mo NAV     &lt NAV RET &kp BSPC  &kp RCTRL &kp RALT  &kp RBKT
+   &kp LBKT  &kp LALT  &kp LGUI  &kp SPACE &lt NAV RET     &kp BSPC  &lt NAV SPACE &kp RCTRL &kp RALT  &kp RBKT
 //        └──────┴──────┴──────┴──────┴──────┘ └──────┴──────┴──────┴──────┴──────┘
             >;
         };
